@@ -1,0 +1,37 @@
+.boxImageDropzone {
+    border: 2px dashed #ccc;
+    padding: 20px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxWebcamSection { 
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxWebcamSection .webcamSectionStyles { 
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.boxWebcamSectionButton {
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.cardImagePreview {
+    margin-top: 2; 
+    max-width: 100%; 
+    overflow: hidden;
+}
+
+.cardImagePreview .cardMediaImagePreview {
+    width: 100%;
+    min-height: auto;
+    object-fit: cover;
+}
